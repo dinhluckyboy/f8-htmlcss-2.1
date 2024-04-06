@@ -1,0 +1,293 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #171100;
+  --secondary-color: #1ebfc1;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  height: 10000px;
+}
+
+/* common */
+
+.main-content {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+a.btn {
+  display: inline-block;
+  width: fit-content;
+  padding: 20px 41px;
+  border-radius: 14px;
+  background: #2ac9bf;
+  color: #fff;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+h1.title {
+  color: #0d1111;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 116.129% */
+}
+
+h2.title {
+  color: #0d1111;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* header  */
+
+header.sticky {
+  position: sticky;
+  top: -27px;
+  left: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+
+header.header {
+  padding: 52px 0 25px;
+}
+
+header.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.header .nav ul {
+  display: flex;
+  /* gap: 39px; */
+}
+
+header.header .nav li.active a {
+  font-weight: 600;
+  cursor: default;
+}
+
+header.header .nav li.active:hover {
+  box-shadow: none;
+}
+
+header.header .nav li {
+  color: #2f3a3b;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 12px 20px;
+}
+
+header.header .nav li:hover {
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+header.header .box-btn .sign-in {
+  display: inline-block;
+  color: #494949;
+  line-height: normal;
+  margin-right: 24px;
+}
+
+header.header .box-btn .sign-up {
+  padding: 12px 24px;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #1ebfc1;
+  font-size: 1.6rem;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+}
+
+/* hero */
+
+.hero {
+  padding: 25px 0 79px;
+}
+
+.hero .container {
+  display: flex;
+}
+
+/* hero info  */
+
+.hero .info {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero .info .content {
+  width: 458px;
+}
+
+.hero .info .content p.sub-title {
+  color: #767e7e;
+  font-size: 1.4rem;
+  font-style: normal;
+  line-height: normal;
+}
+
+.hero .info .content h1.title {
+  margin-top: 18px;
+}
+
+.hero .info .content p.desc {
+  margin-top: 46px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+
+.hero .info .content .cta {
+  margin-top: 52px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.hero .info .content .cta .play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  box-shadow: 0px 22px 50px 0px #0000000d;
+}
+
+/* hero block img  */
+.hero .block-img {
+  width: 53%;
+  height: 631px;
+  position: relative;
+}
+
+.hero .block-img img.hero-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 576px;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* hero block-img p.text common  */
+.hero .block-img p.text {
+  color: #0d1111;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* course  */
+.hero .block-img .courses {
+  position: absolute;
+  left: 0;
+  top: 149px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 17px 25px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .block-img .courses p.text {
+  width: 55px;
+}
+
+/* schedules  */
+.hero .block-img .schedules {
+  position: absolute;
+  left: 0;
+  bottom: 46px;
+  padding: 16px 25px 23px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .block-img .schedules p.text {
+  margin-bottom: 16px;
+}
+
+/* students  */
+
+.hero .block-img .students {
+  position: absolute;
+  right: 45px;
+  bottom: 41px;
+  padding: 17px 35px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .block-img .students .avatar {
+  margin-top: 8px;
+  display: flex;
+}
+
+.hero .block-img .students .avatar .box {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: -7px;
+}
+.hero .block-img .students .avatar .box:first-child {
+  margin-left: 0;
+}
+
+.hero .block-img .students .avatar .box:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hero .block-img .students .avatar .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
