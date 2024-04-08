@@ -291,3 +291,93 @@ header.header .box-btn .sign-up {
   height: 100%;
   object-fit: cover;
 }
+
+/* features  */
+
+.features {
+  padding: 130px 0;
+}
+
+.features .container {
+  width: 1024px;
+}
+
+.features p.subtitle {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.features p.desc {
+  width: 590px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.features h2.title {
+  margin: 18px 0;
+  width: 557px;
+}
+
+.features .box {
+  margin-top: 80px;
+  display: flex;
+}
+
+.features .box .item-1 {
+  width: 168px;
+  margin-right: 209px;
+}
+
+.features .box .item-2 {
+  width: 223px;
+  margin-right: 200px;
+}
+
+.features .box .item-3 {
+  width: 224px;
+}
+
+.features .box .icon {
+  width: 102px;
+  height: 106px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features .box .monitor {
+  background-color: #ffc147;
+}
+
+.features .box .discuss {
+  background-color: #ff947a;
+}
+
+.features .box .talk {
+  background-color: #bf83ff;
+}
+
+.features .box p.title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.features .box p.text {
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
