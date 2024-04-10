@@ -680,3 +680,25 @@ header.header .box-btn .sign-up {
   border-radius: 50%;
   object-fit: cover;
 }
+
+/* action  */
+
+.action {
+  padding: 76px 0 88px;
+  background-color: #def6f5;
+}
+
+.action .container {
+  display: flex;
+  align-items: center;
+  gap: 410px;
+}
+
+.action p.desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
