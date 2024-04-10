@@ -457,8 +457,8 @@ header.header .box-btn .sign-up {
 }
 
 .popular .box .info {
-  position: absolute;
-  top: 322px;
+  position: relative;
+  top: -27px;
   left: 17px;
   width: 325px;
   padding: 18px 25px 29px;
@@ -526,4 +526,157 @@ header.header .box-btn .sign-up {
   position: relative;
   display: flex;
   align-items: center;
+}
+
+/* achievement  */
+
+.achievement {
+  padding: 108px 0 130px;
+}
+
+.achievement .number {
+  width: 54%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.achievement .number strong {
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.achievement .number p.text {
+  margin-top: 11px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.achievement .people {
+  margin-top: 264px;
+  height: 481px;
+  display: flex;
+}
+
+.achievement .people .info {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.achievement .people .info p.quote {
+  max-width: 419px;
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 150% */
+}
+
+.achievement .people .info p.author {
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.achievement .people .info p.author strong {
+  color: #070707;
+  font-weight: 500;
+}
+
+.achievement .people .info .box-chevron {
+  margin-top: 52px;
+  display: flex;
+  gap: 32px;
+}
+
+.achievement .people .info .chevron-left,
+.achievement .people .info .chevron-right {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievement .people .info .chevron-left:hover,
+.achievement .people .info .chevron-right:hover {
+  background-color: #fff;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+/* avatar  */
+.achievement .people .avatar {
+  position: relative;
+  width: 58%;
+}
+
+.achievement .people .avatar .user-1 {
+  position: absolute;
+  top: 0;
+  left: 144px;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.achievement .people .avatar .user-2 {
+  position: absolute;
+  top: 19px;
+  right: 0;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.achievement .people .avatar .user-3 {
+  position: absolute;
+  top: 107px;
+  left: 273px;
+  width: 235px;
+  height: 235px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.achievement .people .avatar .user-4 {
+  position: absolute;
+  top: 258px;
+  left: 0;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.achievement .people .avatar .user-5 {
+  position: absolute;
+  bottom: 0;
+  left: 212px;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.achievement .people .avatar .user-6 {
+  position: absolute;
+  bottom: 29px;
+  right: 32px;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
 }
