@@ -14,7 +14,6 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
-  height: 10000px;
 }
 
 /* common */
@@ -697,6 +696,55 @@ header.header .box-btn .sign-up {
 .action p.desc {
   margin-top: 18px;
   color: #767e7e;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* footer  */
+
+footer.footer {
+  padding: 130px 0 50px;
+}
+
+footer.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer.footer ul li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer.footer ul li:first-child {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+footer.footer .column-5 ul li .icon {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 9px;
+}
+
+footer.footer p.copywrite {
+  margin-top: 80px;
+  text-align: center;
+  color: #b0b5b4;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
