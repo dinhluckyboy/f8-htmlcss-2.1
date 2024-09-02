@@ -20,7 +20,7 @@ body {
 
 .main-content {
   width: 1170px;
-  max-width: 100%;
+  max-width: calc(100% - 140px);
   margin: 0 auto;
 }
 
@@ -750,3 +750,5 @@ footer.footer p.copywrite {
   font-weight: 400;
   line-height: normal;
 }
+
+/* done  */ /* done  */ /* done  */ /* done  */

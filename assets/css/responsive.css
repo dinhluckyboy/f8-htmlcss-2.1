@@ -1,0 +1,231 @@
+/* PC  */
+@media screen and (min-width: 992px) {
+  .hide-on-pc {
+    display: none;
+  }
+}
+/* Tablet & Mobile  */
+@media screen and (max-width: 991.98px) {
+  .hide-on-tablet-mobile {
+    display: none;
+  }
+
+  .bars-mobile {
+    width: 24px;
+    height: 24px;
+    color: #171100;
+  }
+
+  .menu-overlay {
+    position: fixed;
+    inset: 0 0 0 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .menu-drawer {
+    position: fixed;
+    inset: 0 70% 0 0;
+    background-color: #fff;
+    z-index: 10;
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+  }
+
+  .check-bars:checked ~ .menu-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .check-bars:checked ~ .menu-drawer {
+    transform: translateX(0);
+  }
+
+  .nav-mobile {
+    padding: 32px;
+  }
+
+  .nav-mobile li {
+    margin-bottom: 24px;
+    padding: 0 0 8px 4px;
+    color: #2f3a3b;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .nav-mobile li.active {
+    font-weight: 600;
+  }
+
+  /* hero  */
+
+  .hero {
+    padding-top: 50px;
+  }
+
+  .block-img {
+    display: none;
+  }
+
+  /* features  */
+  .features .box {
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+
+  .features .container {
+    width: auto;
+  }
+
+  .features .box .item {
+    margin-right: 0;
+  }
+
+  /* popular  */
+  .popular .row {
+    display: block;
+  }
+
+  .popular .all-course {
+    display: inline-block;
+  }
+
+  .popular .box {
+    margin-top: 8px;
+    flex-wrap: wrap;
+  }
+
+  .popular .box .item {
+    width: auto;
+  }
+
+  /* achievement  */
+
+  .achievement .number {
+    width: 100%;
+  }
+
+  .achievement .people {
+    margin-top: 150px;
+  }
+
+  .achievement .people .avatar {
+    display: none;
+  }
+
+  .achievement .people .info {
+    width: 100%;
+  }
+
+  /* action  */
+
+  .action .container {
+    display: block;
+  }
+
+  .action a.btn {
+    margin-top: 52px;
+  }
+
+  /* footer  */
+
+  .footer .column-1 {
+    margin-right: auto;
+  }
+
+  footer.footer .container {
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: end;
+  }
+
+  footer.footer ul li {
+    text-align: end;
+  }
+}
+/* Tablet  */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .hide-on-tablet {
+    display: none;
+  }
+}
+/* Mobile  */
+@media screen and (max-width: 767.98px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  /* mobile-header  */
+  .mobile-header .box-btn {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .mobile-header .box-btn .sign-up {
+    margin-top: 16px;
+    padding: 10px 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+  }
+
+  /* hero  */
+  .hero .info {
+    width: auto;
+  }
+  .hero .info .content {
+    width: auto;
+  }
+
+  /* feature  */
+  .features h2.title {
+    width: auto;
+  }
+
+  .features p.desc {
+    width: auto;
+  }
+
+  /* popular  */
+  .popular p.desc {
+    width: auto;
+  }
+
+  .popular .box .box-img {
+    width: 100%;
+  }
+
+  .popular .box .box-img .curtain {
+    width: 100%;
+  }
+
+  .popular .box .info {
+    left: 12px;
+    width: 90%;
+  }
+
+  .popular .box .info .times {
+    margin-left: 16px;
+  }
+
+  /* achievement  */
+  .achievement .number {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 48px;
+  }
+
+  /* footer  */
+
+  footer.footer .column {
+    width: 100%;
+  }
+
+  footer.footer ul li {
+    text-align: left;
+  }
+}
